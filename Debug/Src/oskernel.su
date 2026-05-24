@@ -1,0 +1,14 @@
+../Drivers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Drivers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+../Src/oskernel.c:46:6:osKernelStackInit	16	static
+../Src/oskernel.c:73:9:osKernelAddThreads	24	static,ignoring_inline_asm
+../Src/oskernel.c:105:6:osKernelInit	4	static
+../Src/oskernel.c:110:6:osKernelLaunch	16	static
+../Src/oskernel.c:134:29:SysTick_Handler	0	static,ignoring_inline_asm
+../Src/oskernel.c:169:6:osSchedulerLaunch	4	static,ignoring_inline_asm
+../Src/oskernel.c:198:6:osThreadYield	4	static
+../Src/oskernel.c:206:6:osSchedulerRoundRobin	8	static
+../Src/oskernel.c:217:6:tim2_1hz_interrupt_init	8	static
+../Src/oskernel.c:236:6:osSemaphoreInit	16	static
+../Src/oskernel.c:241:6:osSemaphoreSet	16	static,ignoring_inline_asm
+../Src/oskernel.c:248:6:osSemaphoreWait	16	static,ignoring_inline_asm
